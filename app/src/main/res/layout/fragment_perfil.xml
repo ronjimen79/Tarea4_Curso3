@@ -1,0 +1,61 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ronicode.tarea4_curso3.fragments.PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/civPerfil"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/perro_6_shaggy"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#8BC34A"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:text="Shaggy"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPerfil"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:layout_marginTop="@dimen/margin_topRV"
+            android:scrollbars="vertical"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_margin="@dimen/margin_fab"
+        app:elevation="@dimen/elevacion_fab"
+        >
+
+    </android.support.design.widget.FloatingActionButton>
+</FrameLayout>

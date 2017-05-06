@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="opcion">Favoritos</string>
+    <string name="item_contacto">Contacto</string>
+    <string name="item_acercade">Acerca de</string>
+    <string name="for_nombre">Nombre</string>
+    <string name="for_email">Email</string>
+    <string name="for_mensaje">Mensaje</string>
+    <string name="text_bottom">Enviar Comentario</string>
+    <string name="bio_programador">Bio del programador</string>
+    <string name="descripcion_bio">Ronald Jiménez Torres, Ingeniero de Sistemas especializado
+    en redes de computadores. Desarrollo de base de datos en SQL.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nombre_mascota">Shaggy</string>
+    <string name="tema">email prueba</string>
+</resources>
